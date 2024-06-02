@@ -36,7 +36,7 @@
       min-width: 85%;
       height: 100vh;
       padding: 50px 40px;
-      --webkit-backdrop-filter: blur(40px);
+      -webkit-backdrop-filter: blur(40px);
       backdrop-filter: blur(40px);
 
       place-content: center;
@@ -150,7 +150,7 @@
       min-width: 80%;
       height: 100vh;
       padding: 50px 40px;
-      --webkit-backdrop-filter: blur(50px);
+      -webkit-backdrop-filter: blur(50px);
       backdrop-filter: blur(50px);
       place-content: center;
       text-align: left;
@@ -273,7 +273,7 @@
       min-width: 60%;
       height: 100vh;
       padding: 50px 40px;
-      --webkit-backdrop-filter: blur(50px);
+      -webkit-backdrop-filter: blur(50px);
       backdrop-filter: blur(50px);
       place-content: center;
       text-align: left;
