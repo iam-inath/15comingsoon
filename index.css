@@ -11,6 +11,8 @@
    * {
       margin: 0;
       padding: 0;
+      top: 0;
+      bottom: 0;
       box-sizing: border-box;
    }
 
@@ -34,7 +36,9 @@
       min-width: 85%;
       height: 100vh;
       padding: 50px 40px;
+      --webkit-backdrop-filter: blur(40px);
       backdrop-filter: blur(40px);
+
       place-content: center;
    }
    .right {
@@ -115,16 +119,14 @@
       height: 30px;
       width: 30px;
    }
-   /* .social > a > img {
-     }
-     .right {
-     } */
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
    * {
       margin: 0;
       padding: 0;
+      top: 0;
+      bottom: 0;
       box-sizing: border-box;
    }
 
@@ -148,6 +150,7 @@
       min-width: 80%;
       height: 100vh;
       padding: 50px 40px;
+      --webkit-backdrop-filter: blur(50px);
       backdrop-filter: blur(50px);
       place-content: center;
       text-align: left;
@@ -190,7 +193,6 @@
       border-bottom-left-radius: 5px;
       letter-spacing: 1px;
       font-size: 0.9rem;
-
       &:active {
          border: none;
          color: var(--navy);
@@ -245,6 +247,8 @@
    * {
       margin: 0;
       padding: 0;
+      top: 0;
+      bottom: 0;
       box-sizing: border-box;
    }
 
@@ -269,6 +273,7 @@
       min-width: 60%;
       height: 100vh;
       padding: 50px 40px;
+      --webkit-backdrop-filter: blur(50px);
       backdrop-filter: blur(50px);
       place-content: center;
       text-align: left;
@@ -311,7 +316,6 @@
       border-bottom-left-radius: 5px;
       letter-spacing: 1px;
       font-size: 0.9rem;
-
       &:active {
          border: none;
          color: var(--navy);
@@ -330,7 +334,6 @@
       cursor: pointer;
       letter-spacing: 1px;
       font-size: 0.9rem;
-
       &:hover {
          opacity: 0.9;
       }
