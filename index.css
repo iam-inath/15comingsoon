@@ -51,7 +51,7 @@
    }
    h1 {
       font-size: 2.8rem;
-      margin: 100px 0px;
+      margin: 100px 0px 50px;
    }
    .input-and_button {
       display: flex;
@@ -113,11 +113,13 @@
       align-items: center;
       gap: 10px;
       width: 100%;
-      margin-top: 100px;
+      margin-top: 50px;
    }
    .socialicons {
       height: 30px;
       width: 30px;
+      filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(0deg)
+         brightness(100%) contrast(100%);
    }
 }
 
@@ -169,7 +171,7 @@
    }
    h1 {
       font-size: 3.2rem;
-      margin: 100px 0px;
+      margin: 100px 0px 50px;
    }
    .input-and_button {
       display: flex;
@@ -235,11 +237,15 @@
       align-items: center;
       gap: 10px;
       width: 100%;
-      margin-top: 100px;
+      margin-top: 50px;
    }
-   .socialicons {
+   .socialicons,
+   .fa-instagram,
+   .fa-linkedin {
       height: 30px;
       width: 30px;
+      filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(0deg)
+         brightness(100%) contrast(100%);
    }
 }
 
@@ -292,7 +298,7 @@
    }
    h1 {
       font-size: 3.8rem;
-      margin: 100px 0px;
+      margin: 100px 0px 50px;
    }
    .input-and_button {
       display: flex;
@@ -357,10 +363,12 @@
       align-items: center;
       gap: 10px;
       width: 100%;
-      margin-top: 100px;
+      margin-top: 50px;
    }
    .socialicons {
       height: 30px;
       width: 30px;
+      filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(0deg)
+         brightness(100%) contrast(100%);
    }
 }
